@@ -1,10 +1,9 @@
-project: outdoor_5ha_cbd2025
+project: outdoor_5ha_cbd8_2025
 budget_usd: 80000
 area_sqm: 50000
 cycles_per_year: 1
-
 yield_flower_kg_per_cycle: 5000
-product_type: flower
+product_type: flower (CBD 8–10%)
 
 biomass_distribution:
   top_flower_ratio: 0.6
@@ -18,5 +17,5 @@ prices:
 
 extraction_yields:
   rosin_percent: 3.8
-  distillate_percent: 15
-  isolate_percent: 8
+  distillate_percent: 12.0
+  isolate_percent: 6.4
