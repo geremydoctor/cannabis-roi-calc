@@ -1,0 +1,62 @@
+project: roi_5ha_integrated_cbd
+description: |
+  Інтегрований розрахунок прибутковості повного циклу на базі мікроклонування, поля 5 га, екстракції, сушіння та переробки.
+  CBD-концентрація 8–10%, модель 2025 року.
+
+area_sqm: 50000
+budget_usd: 1625000
+cycles_per_year: 1
+
+plant_density_per_ha_min: 12000
+plant_density_per_ha_max: 24000
+plant_target_total: 120000
+
+# Врожайність
+yield_flower_kg_per_cycle: 5000
+top_flower_ratio: 0.6
+extract_biomass_ratio: 0.4
+
+# Ціни (USD)
+prices:
+  top_flower_per_kg: 400
+  rosin_per_kg: 8000
+  distillate_per_kg: 1500
+  isolate_per_kg: 1000
+
+# Вихід продуктів з біомаси
+extraction_yields:
+  rosin_percent: 3.8
+  distillate_percent: 15
+  isolate_percent: 8
+
+# Витрати на персонал та експлуатацію
+opex_usd_per_year: 140000
+
+# Лабораторія мікроклонування
+lab:
+  capex: 270000
+  monthly_personnel: 6000
+  cold_storage_capex: 50000
+
+# Теплиця для акліматизації
+greenhouse:
+  capex: 150000
+
+# Сушіння та тримінг
+postharvest:
+  drying_capex: 150000
+  trimming_capex: 15000
+  packaging_capex: 8000
+  storage_capex: 12000
+
+# Екстракція
+extraction:
+  capex: 500000
+  monthly_personnel: 4800
+
+# Земля, оформлення, безпека, сільгоспінфраструктура
+infrastructure:
+  land_and_legal: 200000
+  engineering: 70000
+  security_and_drones: 50000
+  contingencies: 150000
